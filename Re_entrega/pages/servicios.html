@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>- Final - Servicios </title>
 
+    <!-- Link Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
     <!-- link css -->
     <link rel="stylesheet" href="../css/style.css">
     
@@ -26,16 +29,16 @@
                     <a href="../index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="./nosotros.html">Nosotros</a>
+                    <a href="nosotros.html">Nosotros</a>
                 </li>    
                 <li> 
                     <a style="color: #2FA7B7;font-weight: bold;" href="servicios.html">Servicios</a>
                 </li>
                 <li> 
-                    <a href="./info.html">Información</a>
+                    <a href="info.html">Información</a>
                 </li>
                 <li>
-                    <a href="./contacto.html">Contacto</a>                  
+                    <a href="contacto.html">Contacto</a>                  
                </li>    
            </ul>            
        </nav>
@@ -78,80 +81,82 @@
     </main>
 
     <!-- pie de pagina -->
-    <footer>
-        <!-- primer bloque -->
-        <div class="bloque1">
-            <h3>Contáctanos!</h3>
-                <ul>
-                    <li>
-                        <img src="./img/phone_icon.png" alt="telefono"> +54 9 11.5695.2365
+    
+    <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 m-5 linea">
+            <div class="col mb-3">
+                <a href="/" class="d-flex align-items-center mb-6 link-body-emphasis text-decoration-none">
+                    <img src="../img/logo_h.png" class="bi me-2" width="70" height="auto" alt="telefono">
+                </a>
+                <p class="text-body-secondary">&copy; 2023.<br>María Belén Klaerich</p>
+            </div>
+  
+            <div class="col mb-3">
+                <h5>Contáctanos!</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2">
+                            <img src="../img/phone_icon.png" alt="telefono"> +54 9 11.5695.2365
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="../img/mail.png" alt="casilla de correo"> cuatropatas@hotmail.com
+                        </li>
+                        <li class="nav-item mb-2">
+                            <img src="../img/location.png" alt="direccion"> Calle Huesos 351, Buenos Aires
+                        </li>
+                    </ul>
+            </div>
+    
+            <div class="col mb-3">
+                <h5>Adiestramiento</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Cursos</a>
                     </li>
-                    <li>
-                        <img src="./img/mail.png" alt="casilla de correo"> cuatropatas@hotmail.com
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Tips de aprendizaje</a>
                     </li>
-                    <li>
-                        <img src="./img/location.png" alt="direccion"> Calle Huesos 351, Buenos Aires
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Asesoría online</a>
                     </li>
                 </ul>
-        </div>
-
-        <!-- segundo bloque -->
-        <div class="bloque2">
-            <div class="bloque2_P1">
-                <h3> Adiestramiento </h3>
-                    <ul>
-                        <li>
-                            Cursos
-                        </li>
-                        <li>
-                            Tips de aprendizaje
-                        </li>
-                        <li>
-                            Asesoría online
-                        </li>
-                    </ul>
             </div>
-
-            <div class="bloque2_P2">
-                <h3> Información </h3>
-                    <ul>
-                        <li>
-                            Veterinarias 24hs
-                        </li>
-                        <li>
-                            Pets-shop 
-                        </li>
-                        <li>
-                            Baño y peluquería
-                        </li>
-                    </ul>
+  
+            <div class="col mb-3">
+                <h5>Información</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary"> Veterinarias 24hs</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Pets-shop</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Baño y peluquería</a>
+                    </li>
+                </ul>
             </div>
-
-            <div class="bloque2_P3">
-                <h3> Ustedes </h3>
-                    <ul>
-                        <li>
-                            Historias
-                        </li>
-                        <li>
-                            Galeria 
-                        </li>
-                        <li>
-                            Datos
-                        </li>
-                    </ul>
+            
+            <div class="col mb-3">
+                <h5>Ustedes</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Historias</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Galeria</a>
+                    </li>
+                    <li class="nav-item mb-2">
+                        <a href="#" class="nav-link p-0 text-body-secondary">Datos</a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        
-        <div class="footer_bottom">
-            <h5>Todos los derechos reservados. Belén Kaerich</h5>
-            <ul>
-                <li></li>
-            </ul>
-        </div>
+        </footer>
+      </div>
 
-    </footer>
 
+    <!-- Script Boostrap-->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
 </html>
